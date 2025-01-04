@@ -27,18 +27,18 @@ export default function Home() {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
-        <main className={styles.main}>  
+        <main className={styles.main}> 
+          
+           
           <h1>Giselle Andrade</h1>
            <p>Seja muito bem vindo ao meu cantinho</p>
         </main>
         <footer className={styles.footer}>
           <p>
             <a href="https://github.com/giselleandrade1/" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/giselleandrades2/" target="_blank">linkedin</a>
+            <a href="https://" target="_blank">Whatsapp</a>
           </p>
-          
-
-
-          
         </footer>
       </div>
     </>
