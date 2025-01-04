@@ -30,7 +30,7 @@ export default function Home() {
         <main className={styles.main}> 
           
            
-          <h1>Giselle Andrade.</h1>
+          <h1>Giselle Andrade</h1>
            <p>Seja muito bem vindo ao meu cantinho</p>
         </main>
         <footer className={styles.footer}>
