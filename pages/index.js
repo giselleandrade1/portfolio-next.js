@@ -32,7 +32,9 @@ export default function Home() {
            <p>Seja muito bem vindo ao meu cantinho</p>
         </main>
         <footer className={styles.footer}>
-          <p>--</p>
+          <p>
+            <a href="https://github.com/giselleandrade1/" target="_blank">GitHub</a>
+          </p>
           
         </footer>
       </div>
