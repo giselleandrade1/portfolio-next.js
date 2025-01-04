@@ -14,6 +14,11 @@
   padding: 80px;
   gap: 64px;
   font-family: var(--font-geist-sans);
+  background-color: #1a1a1a;
+}
+
+.page h1, .page p, .page a, .page h2, .page h3 {
+  color: #f2f2f2;
 }
 
 @media (prefers-color-scheme: dark) {
