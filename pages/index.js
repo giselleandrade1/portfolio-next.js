@@ -37,7 +37,7 @@ export default function Home() {
           <p>
             <a href="https://github.com/giselleandrade1/" target="_blank">GitHub</a>
             <a href="https://www.linkedin.com/in/giselleandrades2/" target="_blank">linkedin</a>
-            <a href="https://" target="_blank">Whatsapp</a>
+            <a href="https://wa.me/5511941942854" target="_blank">Whatsapp</a>
           </p>
         </footer>
       </div>
