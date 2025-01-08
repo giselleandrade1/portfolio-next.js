@@ -34,11 +34,58 @@ export default function Home() {
            <p>Seja muito bem vindo ao meu cantinho</p>
         </main>
         <footer className={styles.footer}>
-          <p>
-            <a href="https://github.com/giselleandrade1/" target="_blank">GitHub</a>
-            <a href="https://www.linkedin.com/in/giselleandrades2/" target="_blank">linkedin</a>
-            <a href="https://wa.me/5511941942854" target="_blank">Whatsapp</a>
-          </p>
+          <a
+            href="https://www.instagram.com/giselleandrade.s2/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/instagram.svg"
+              alt="instagram icon"
+              width={16}
+              height={16}
+            />
+          </a>
+          <a
+            href="https://github.com/giselleandrade1/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/github.svg"
+              alt="github icon"
+              width={16}
+              height={16}
+            />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/giselleandrades2/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/linkedin.svg"
+              alt="linkedin icon"
+              width={16}
+              height={16}
+            />
+          </a>
+          <a
+            href="https://wa.link/ld6dq6"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              aria-hidden
+              src="/whatsapp.svg"
+              alt="whatsapp icon"
+              width={16}
+              height={16}
+            />
+          </a>
         </footer>
       </div>
     </>
