@@ -22,14 +22,22 @@ export default function Home() {
         <title>Portfólio Giselle</title>
         <meta name="description" content="Portfólio Giselle" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/github.svg" />
       </Head>
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}> 
-          
-           
+          <div>
+          <Image
+              aria-hidden
+              src="/Giselleandrade1.png"
+              alt="My Profile GitHub"
+              width={150}
+              height={150
+              }
+            />
+          </div>
           <h1>Giselle Andrade</h1>
            <p>Seja muito bem vindo ao meu cantinho</p>
         </main>
