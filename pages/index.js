@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
 
-  
-  return (    
+
+  return (
     <>
       <Head>
         <title>Portfólio Giselle</title>
@@ -27,19 +27,19 @@ export default function Home() {
       <div
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
-        <main className={styles.main}> 
+        <main className={styles.main}>
           <div>
-          <Image
+            <Image
               aria-hidden
-              src="/Giselleandrade1.png"
-              alt="My Profile GitHub"
+              src="https://avatars.githubusercontent.com/u/187031179"
+              alt="Avatar da @giselleandrade1 no Github"
               width={150}
               height={150
               }
             />
           </div>
           <h1>Giselle Andrade</h1>
-           <p>Seja muito bem vindo ao meu cantinho</p>
+          <p>Seja muito bem vindo ao meu cantinho</p>
         </main>
         <footer className={styles.footer}>
           <a
